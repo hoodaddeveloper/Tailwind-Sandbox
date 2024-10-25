@@ -11,30 +11,44 @@
       background-color: plum;
     } */
 
-    /* Min width 640px */
-    /* @media screen and (min-width: 640px) {
+    /* Min width 640px
+      @media screen and (min-width: 640px) {
       body {
         background-color: aqua;
       }
     } */
 
-    /* Min width 768px */
-    /* @media screen and (min-width: 768px) {
+    /* Min width 768px
+      @media screen and (min-width: 768px) {
       body {
         background-color: palegreen;
       }
     } */
+
+    /* Make responsive with CSS */
+    .parent {
+      display: flex;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .child {
+      
+    }
   </style>
 </head>
 
 <body
-  class="bg-purple-300 sm:bg-blue-300 md:bg-green-300 lg:bg-yellow-300 xl:bg-red-300 flex items-center justify-center h-screen">
+  class="bg-purple-300 sm:bg-blue-300 md:bg-green-300 lg:bg-yellow-300 xl:bg-red-300 items-center justify-center h-screen">
   <div class="w-60 h-60 bg-gray-300 border-8 border-green-800 md:bg-green-300 md:border-blue-300">
     Lorem ipsum
     dolor sit amet consectetur adipisicing elit.
     Libero quibusdam eligendi nam, fuga corporis porro
     necessitatibus accusantium quasi quos, delectus tenetur voluptas cumque illum obcaecati iusto qui, deleniti sapiente
     eaque.</div>
+
+  <br><br>
 
   <div class="max-w-[800px] flex">
     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dicta quidem laboriosam iste nihil facere.
@@ -43,6 +57,13 @@
       Aliquam beatae repellendus iste iure!</div>
     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dicta quidem laboriosam iste nihil facere.
       Aliquam beatae repellendus iste iure!</div>
+  </div>
+
+  <br><br>
+  <!-- Make responsive with CSS -->
+  <div class="parent">
+    <div class="child"></div>
+    <div class="child"></div>
   </div>
 </body>
 
