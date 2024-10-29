@@ -11,9 +11,13 @@ module.exports = {
     }, */
     /* Adding new things to Tailwind */
     extend: {
+      /* Adding new screen breakpoint */
       screens: {
-        /* New screen breakpoint */
         'hoodad': '1500px'
+      },
+      /* Adding new colors */
+      colors: {
+        'Sabzabi': '#34ebb4'
       }
     }
   },
