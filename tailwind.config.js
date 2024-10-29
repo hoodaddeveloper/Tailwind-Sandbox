@@ -18,6 +18,10 @@ module.exports = {
       /* Adding new colors */
       colors: {
         'Sabzabi': '#34ebb4'
+      },
+      /* Adding new spacing */
+      spacing: {
+        'newsize': '30rem'
       }
     }
   },
