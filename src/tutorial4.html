@@ -19,6 +19,25 @@
       border-radius: 50%;
       background-color: chartreuse;
     }
+
+    /* Added animation */
+    @keyframes moveCube {
+      0% {
+        transform: translateX(0);
+      }
+
+      50% {
+        transform: translateX(+100px);
+      }
+
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    .cube {
+      animation: moveCube 2s infinite;
+    }
   </style>
 </head>
 
@@ -38,6 +57,8 @@
   <div class="flex">
     <div class="h-[140px] w-[140px] border-8 border-black border-t-transparent rounded-full animate-spin"></div>
     <div class="h-[140px] w-[140px] border-8 border-black border-t-red-500 rounded-full animate-spin"></div>
+    <!-- Add custom animation to Tailwind -->
+    <div class="h-[140px] w-[140px] bg-black cube"></div>
   </div>
 </body>
 
