@@ -22,7 +22,7 @@
   </style>
 </head>
 
-<body>
+<body class="bg-yellow-100">
   <div class="box"></div>
   <hr>
   <!-- Pseudo classes with Tailwind -->
@@ -30,7 +30,15 @@
 
   <br><br>
   <!-- Tailwind animation and transition -->
-  <div class="h-[140px] w-[140px] bg-[aquamarine] hover:bg-[bisque] hover:w-[200px] transition-all delay-1000 duration-[1000ms]"></div>
+  <div
+    class="h-[140px] w-[140px] bg-[aquamarine] hover:bg-[bisque] hover:w-[200px] transition-all delay-1000 duration-[1000ms]">
+  </div>
+  <hr>
+  <!-- Spinners -->
+  <div class="flex">
+    <div class="h-[140px] w-[140px] border-8 border-black border-t-transparent rounded-full animate-spin"></div>
+    <div class="h-[140px] w-[140px] border-8 border-black border-t-red-500 rounded-full animate-spin"></div>
+  </div>
 </body>
 
 </html>

@@ -738,6 +738,16 @@ video {
   flex: none;
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
 .list-image-\[url\(https\:\/\/dl\.next1code\.ir\/images\/tick\.png\)\] {
   list-style-image: url(https://dl.next1code.ir/images/tick.png);
 }
@@ -870,6 +880,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-dashed {
   border-style: dashed;
 }
@@ -927,6 +941,15 @@ video {
 .border-r-green-700 {
   --tw-border-opacity: 1;
   border-right-color: rgb(21 128 61 / var(--tw-border-opacity));
+}
+
+.border-t-transparent {
+  border-top-color: transparent;
+}
+
+.border-t-red-500 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-Sabzabi {
