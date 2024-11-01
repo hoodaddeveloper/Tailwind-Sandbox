@@ -1322,7 +1322,39 @@ video {
   transition-duration: 150ms;
 }
 
+.delay-1000 {
+  transition-delay: 1000ms;
+}
+
 .duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.duration-\[2000\] {
+  transition-duration: 2000;
+}
+
+.duration-\[2000s\] {
+  transition-duration: 2000s;
+}
+
+.duration-\[2000ms\] {
+  transition-duration: 2000ms;
+}
+
+.duration-\[4s\] {
+  transition-duration: 4s;
+}
+
+.duration-\[4000ms\] {
+  transition-duration: 4000ms;
+}
+
+.duration-\[1500ms\] {
+  transition-duration: 1500ms;
+}
+
+.duration-\[1000ms\] {
   transition-duration: 1000ms;
 }
 
